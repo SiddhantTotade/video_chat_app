@@ -7,6 +7,17 @@
         <p>Room Name : <span id="room-name"></span></p>
     </section>
     <section id="video-streams"></section>
+    <section id="controls-wrapper">
+        <div class="icon-wrapper">
+            <img class="control-icon" src="{% static 'images/mic-icon.png' %}" alt="" id="mic-btn">
+        </div>
+        <div class="icon-wrapper">
+            <img class="control-icon" src="{% static 'images/video-icon.png' %}" alt="" id="camera-btn">
+        </div>
+        <div class="icon-wrapper">
+            <img class="control-icon" src="{% static 'images/exit-icon.png' %}" alt="" id="leave-btn">
+        </div>
+    </section>
 </main>
 <script type="text/javascript" src="{% static 'assets/AgoraRTC_N-4.12.0.js' %}"></script>
 <script type="text/javascript" src="{% static 'js/streams.js' %}"></script>
