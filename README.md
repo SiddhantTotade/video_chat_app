@@ -4,7 +4,9 @@
 # Video Chatting Application
 + This is Video Chatting Application based on Python Django.
 + This application uses Agora for serving and chatting.
-+ This application has the functionality of 
+
+#### ToDo
+* Put your SECRET_KEY in settings.py file.
 
 ## How to use
 + Go to Deployment area of this application or simply click on github pages
